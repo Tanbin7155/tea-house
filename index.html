@@ -1,26 +1,110 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
     <!-- link tailwind css  -->
-    <script src="https://cdn.tailwindcss.com"> </script>
+    <script src="https://cdn.tailwindcss.com"></script>
     <!-- link font awesome  -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+      integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
     <!-- font family link  -->
-     <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap" rel="stylesheet">
-    <!-- css  -->
-     <style>
-        .font-manrope{
-        font-family: "Manrope", sans-serif;;
-        }
-     </style>
+    <link href="https://fonts.googleapis.com/css2?family=Rubik+Doodle+Shadow&display=swap" rel="stylesheet">
+    <style>
+      .rubik-font{
+      font-family: "Rubik Doodle Shadow", system-ui;
+    }
 
-</head>
-<body>
-    
-</body>
+    </style>
+  </head>
+  <body>
+    <!-- header section -->
+    <header class="bg-gray-300">
+      <div class="md:flex justify-around  ms-3">
+        <div class="content-center sm:mt-2">
+          <h1 class="text-5xl font-bold rubik-font">
+            It's good <br />
+            Tea time at The <br />
+            Tea House
+          </h1>
+          <p class="text-gray-500 leading-7 mt-3">
+            Tea and Botainncal Solutions Supplier Give Optime <br />
+            Satiafaction To Your Taste Buds
+          </p>
+          <button
+            class="mt-6 bg-gradient-to-r from-orange-500 to-red-500 hover:from-purple-500 hover:to-pink-400 py-2 px-4 rounded-lg text-white font-bold"
+          >
+            Explore More<i class="fa-solid fa-arrow-right -rotate-45"></i>
+          </button>
+        </div>
+        <!-- img  -->
+        <div class="relative">
+            <img class="w-full" src="images/banner.png" alt="" />
+          <!-- card  -->
+          <div class="absolute bottom-5 left-40 flex items-center bg-white shadow-lg md:px-10 px-3 py-2 rounded-lg">
+            <div>
+              <div><i class="fa-solid fa-star text-2xl text-amber-400"></i></div>
+            </div>
+            <div class="ml-2">
+              <h3 class="text-xl font-bold">5.00</h3>
+              <p class="text-gray-500">Trust Pilot Ratings</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+    <main>
+      <!-- our featured productes -->
+      <section class="mt-5">
+        <!-- title  -->
+        <div class="text-center">
+          <h2 class="text-2xl md:text-4xl font-bold">Our Featured Products</h2>
+          <p class="mt-2 text-gray-500 mb-5">Lorem ipsum dolor sit amet consectetur adipisicing elit. <br> Architecto dolorum magnam placeat reprehenderit quasi adipisci!</p>
+        </div>
+        <!-- card  -->
+         <div class="grid grid-cols-1 md:grid-cols-4 gap-4 mx-3 my-3 text-center">
+           <!-- card 1 -->
+            <div class="bg-gray-200 rounded-lg shadow-lg ">
+              <img class="mx-auto pt-4" src="images/tea-1.png" alt="">
+              <div class="p-4">
+                <h1 class="text-3xl font-bold">Milk Tea </h1>
+                <p class="text-gray-600">Creamer could be replaced by fresh milk</p>
+              </div>
+            </div>
+           <!-- card 2 -->
+            <div class="bg-gray-200 rounded-lg shadow-lg ">
+              <img class="mx-auto pt-4" src="images/tea-2.png" alt="">
+              <div class="p-4">
+                <h1 class="text-3xl font-bold">Milk Tea </h1>
+                <p class="text-gray-600">Creamer could be replaced by fresh milk</p>
+              </div>
+            </div>
+           <!-- card 3 -->
+            <div class="bg-gray-200 rounded-lg shadow-lg ">
+              <img class="mx-auto pt-4" src="images/tea-3.png" alt="">
+              <div class="p-4">
+                <h1 class="text-3xl font-bold">Milk Tea </h1>
+                <p class="text-gray-600">Creamer could be replaced by fresh milk</p>
+              </div>
+            </div>
+           <!-- card 4 -->
+            <div class="bg-gray-200 rounded-lg shadow-lg ">
+              <img class="mx-auto pt-4" src="images/tea-4.png" alt="">
+              <div class="p-4">
+                <h1 class="text-3xl font-bold">Milk Tea </h1>
+                <p class="text-gray-600">Creamer could be replaced by fresh milk</p>
+              </div>
+            </div>
+         </div>
+      </section>
+    </main>
+  </body>
 </html>
