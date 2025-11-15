@@ -1,0 +1,16 @@
+.rating-card{
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.text-container h1{
+    font-size: 30px;
+    font-weight: 600;
+}
+.text-container p{
+    color: rgba(82, 79, 79, 0.966);
+}
+.footer-info h1{
+    font-weight: 700;
+    font-size: 30px;
+}
